@@ -6,9 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException, TimeoutException
 import time
 
-someone = ''
-username = ''
-password = ''
+someone = '' #add someone's username whose followers you want to follow
+username = '' #add your username
+password = '' #add your password
 
 chrome_options = Options()
 driver = webdriver.Firefox(options=chrome_options)
